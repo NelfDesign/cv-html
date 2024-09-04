@@ -5,3 +5,13 @@
     font-size: 1.7rem;
   }
 }
+
+.text {
+  &-primary {
+    color: var(--primary);
+  }
+
+  &-hint {
+    color: var(--hint);
+  }
+}

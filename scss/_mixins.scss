@@ -1,0 +1,27 @@
+@mixin bar-skill {
+  margin: 2rem 0;
+  height: 5px;
+  background: var(--hint);
+  position: relative;
+}
+
+@mixin bar-skill-progress($pourcentage) {
+  @include bar-skill;
+  .bar-skill-progress {
+    position: absolute;
+    height: 5px;
+    top: 0;
+    left: 0;
+    width: $pourcentage;
+    background: var(--light);
+  }
+  .bar-skill-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--dark);
+    left: calc($pourcentage - 5px);
+    top: -2.5px;
+    transform: rotate(45deg);
+  }
+}
