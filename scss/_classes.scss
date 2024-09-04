@@ -1,0 +1,7 @@
+// le symbol & fait référence à .title son parent
+.title {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+  }
+}
