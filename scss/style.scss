@@ -13,6 +13,7 @@
     "aside main" 1fr
     "footer footer" auto
     / 350px auto;
+  min-height: 100vh;
   @include xs {
     grid:
       "header" auto
@@ -22,7 +23,6 @@
       "footer" auto
       / auto;
   }
-  min-height: 100vh;
 }
 
 header {
@@ -81,20 +81,37 @@ aside {
       margin: 0 0 2rem 0;
       font-style: italic;
     }
+    //flutter
     .bar-skill:nth-child(3) {
       @include mixins.bar-skill-progress(80%);
     }
+    //kotlin
     .bar-skill:nth-child(5) {
       @include mixins.bar-skill-progress(50%);
     }
+    //java
     .bar-skill:nth-child(7) {
       @include mixins.bar-skill-progress(50%);
     }
+    //docker
     .bar-skill:nth-child(9) {
+      @include mixins.bar-skill-progress(50%);
+    }
+    //html
+    .bar-skill:nth-child(11) {
+      @include mixins.bar-skill-progress(80%);
+    }
+    //css
+    .bar-skill:nth-child(13) {
       @include mixins.bar-skill-progress(70%);
     }
-    .bar-skill:nth-child(11) {
-      @include mixins.bar-skill-progress(60%);
+    //git
+    .bar-skill:nth-child(15) {
+      @include mixins.bar-skill-progress(70%);
+    }
+    //firebase
+    .bar-skill:nth-child(17) {
+      @include mixins.bar-skill-progress(80%);
     }
   }
   .star-container {
@@ -136,7 +153,7 @@ aside {
 
 main {
   grid-area: main;
-  padding: 5rem;
+  padding: 3rem;
   @include xs {
     padding: 5rem 1.5rem;
   }
@@ -149,8 +166,9 @@ main {
   }
   .experience {
     display: flex;
-    margin: 6rem 0;
+    margin: 4rem 0;
     .timeline {
+      flex: 0 0 150px;
       text-align: center;
       color: var(--hint);
       padding-right: 2rem;
@@ -161,14 +179,15 @@ main {
     }
     .content {
       padding: 0 1rem;
-      h3 {
+      h3,
+      h4 {
         margin: 0;
       }
       p {
-        margin: 0;
+        margin: 0 0 10 0;
       }
       ul {
-        margin: 2rem 0;
+        margin: 1rem 0;
         list-style: circle;
         padding-left: 4rem;
       }
@@ -184,10 +203,11 @@ footer {
   align-items: center;
   color: white;
   padding: 5rem;
+  background: var(--text);
   @include xs {
     padding: 5rem 1.5rem;
   }
-  background: var(--text);
+
   h2 {
     margin-bottom: 3rem;
   }
@@ -222,11 +242,12 @@ footer {
       outline: 0;
       border: 0;
       min-width: 400px;
+      padding: 1rem 2rem;
+      line-height: 2rem;
       @include xs {
         min-width: 200px;
       }
-      padding: 1rem 2rem;
-      line-height: 2rem;
+
       &::placeholder {
         color: var(--text);
       }

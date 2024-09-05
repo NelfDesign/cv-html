@@ -237,7 +237,7 @@ aside .block .bar-skill:nth-child(9) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 50%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(9) .bar-skill-dot {
@@ -245,7 +245,7 @@ aside .block .bar-skill:nth-child(9) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(70% - 5px);
+  left: calc(50% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -260,7 +260,7 @@ aside .block .bar-skill:nth-child(11) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 80%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(11) .bar-skill-dot {
@@ -268,7 +268,76 @@ aside .block .bar-skill:nth-child(11) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(60% - 5px);
+  left: calc(80% - 5px);
+  top: -2.5px;
+  transform: rotate(45deg);
+}
+aside .block .bar-skill:nth-child(13) {
+  margin: 2rem 0;
+  height: 5px;
+  background: var(--hint);
+  position: relative;
+}
+aside .block .bar-skill:nth-child(13) .bar-skill-progress {
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 0;
+  width: 70%;
+  background: var(--light);
+}
+aside .block .bar-skill:nth-child(13) .bar-skill-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--dark);
+  left: calc(70% - 5px);
+  top: -2.5px;
+  transform: rotate(45deg);
+}
+aside .block .bar-skill:nth-child(15) {
+  margin: 2rem 0;
+  height: 5px;
+  background: var(--hint);
+  position: relative;
+}
+aside .block .bar-skill:nth-child(15) .bar-skill-progress {
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 0;
+  width: 70%;
+  background: var(--light);
+}
+aside .block .bar-skill:nth-child(15) .bar-skill-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--dark);
+  left: calc(70% - 5px);
+  top: -2.5px;
+  transform: rotate(45deg);
+}
+aside .block .bar-skill:nth-child(17) {
+  margin: 2rem 0;
+  height: 5px;
+  background: var(--hint);
+  position: relative;
+}
+aside .block .bar-skill:nth-child(17) .bar-skill-progress {
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 0;
+  width: 80%;
+  background: var(--light);
+}
+aside .block .bar-skill:nth-child(17) .bar-skill-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--dark);
+  left: calc(80% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -310,7 +379,7 @@ aside .social-container p {
 
 main {
   grid-area: main;
-  padding: 5rem;
+  padding: 3rem;
 }
 @media (max-width: 480px) {
   main {
@@ -326,9 +395,10 @@ main p {
 }
 main .experience {
   display: flex;
-  margin: 6rem 0;
+  margin: 4rem 0;
 }
 main .experience .timeline {
+  flex: 0 0 150px;
   text-align: center;
   color: var(--hint);
   padding-right: 2rem;
@@ -340,14 +410,15 @@ main .experience .timeline p {
 main .experience .content {
   padding: 0 1rem;
 }
-main .experience .content h3 {
+main .experience .content h3,
+main .experience .content h4 {
   margin: 0;
 }
 main .experience .content p {
-  margin: 0;
+  margin: 0 0 10 0;
 }
 main .experience .content ul {
-  margin: 2rem 0;
+  margin: 1rem 0;
   list-style: circle;
   padding-left: 4rem;
 }
