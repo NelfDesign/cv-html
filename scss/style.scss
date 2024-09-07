@@ -115,7 +115,7 @@ aside {
     }
     //javascript
     .bar-skill:nth-child(19) {
-      @include mixins.bar-skill-progress(80%);
+      @include mixins.bar-skill-progress(60%);
     }
   }
   .star-container {

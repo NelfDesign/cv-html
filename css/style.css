@@ -341,6 +341,29 @@ aside .block .bar-skill:nth-child(17) .bar-skill-dot {
   top: -2.5px;
   transform: rotate(45deg);
 }
+aside .block .bar-skill:nth-child(19) {
+  margin: 2rem 0;
+  height: 5px;
+  background: var(--hint);
+  position: relative;
+}
+aside .block .bar-skill:nth-child(19) .bar-skill-progress {
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 0;
+  width: 60%;
+  background: var(--light);
+}
+aside .block .bar-skill:nth-child(19) .bar-skill-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--dark);
+  left: calc(60% - 5px);
+  top: -2.5px;
+  transform: rotate(45deg);
+}
 aside .star-container {
   display: flex;
   margin: 2rem 0 3rem 0;
