@@ -113,6 +113,10 @@ aside {
     .bar-skill:nth-child(17) {
       @include mixins.bar-skill-progress(80%);
     }
+    //javascript
+    .bar-skill:nth-child(19) {
+      @include mixins.bar-skill-progress(80%);
+    }
   }
   .star-container {
     display: flex;
