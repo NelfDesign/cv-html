@@ -117,6 +117,14 @@ aside {
     .bar-skill:nth-child(19) {
       @include mixins.bar-skill-progress(60%);
     }
+    //typeScript
+    .bar-skill:nth-child(21) {
+      @include mixins.bar-skill-progress(60%);
+    }
+    //react
+    .bar-skill:nth-child(23) {
+      @include mixins.bar-skill-progress(20%);
+    }
   }
   .star-container {
     display: flex;
