@@ -191,7 +191,7 @@ aside .block .bar-skill:nth-child(5) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 60%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(5) .bar-skill-dot {
@@ -199,7 +199,7 @@ aside .block .bar-skill:nth-child(5) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(50% - 5px);
+  left: calc(60% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -237,7 +237,7 @@ aside .block .bar-skill:nth-child(9) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 20%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(9) .bar-skill-dot {
@@ -245,7 +245,7 @@ aside .block .bar-skill:nth-child(9) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(50% - 5px);
+  left: calc(20% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -306,7 +306,7 @@ aside .block .bar-skill:nth-child(15) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 80%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(15) .bar-skill-dot {
@@ -314,7 +314,7 @@ aside .block .bar-skill:nth-child(15) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(70% - 5px);
+  left: calc(80% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -329,7 +329,7 @@ aside .block .bar-skill:nth-child(17) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 80%;
+  width: 60%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(17) .bar-skill-dot {
@@ -337,7 +337,7 @@ aside .block .bar-skill:nth-child(17) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(80% - 5px);
+  left: calc(60% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -375,7 +375,7 @@ aside .block .bar-skill:nth-child(21) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 40%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(21) .bar-skill-dot {
@@ -383,7 +383,7 @@ aside .block .bar-skill:nth-child(21) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(60% - 5px);
+  left: calc(40% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
@@ -398,7 +398,7 @@ aside .block .bar-skill:nth-child(23) .bar-skill-progress {
   height: 5px;
   top: 0;
   left: 0;
-  width: 20%;
+  width: 40%;
   background: var(--light);
 }
 aside .block .bar-skill:nth-child(23) .bar-skill-dot {
@@ -406,7 +406,7 @@ aside .block .bar-skill:nth-child(23) .bar-skill-dot {
   width: 10px;
   height: 10px;
   background: var(--dark);
-  left: calc(20% - 5px);
+  left: calc(40% - 5px);
   top: -2.5px;
   transform: rotate(45deg);
 }
