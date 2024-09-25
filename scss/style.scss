@@ -125,6 +125,10 @@ aside {
     .bar-skill:nth-child(23) {
       @include mixins.bar-skill-progress(20%);
     }
+     //react Native
+     .bar-skill:nth-child(25) {
+      @include mixins.bar-skill-progress(20%);
+    }
   }
   .star-container {
     display: flex;
